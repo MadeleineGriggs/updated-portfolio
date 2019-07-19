@@ -19,6 +19,10 @@ body {
     background-color: var(--cream);
 }
 
+.hidden {
+    display: none;
+}
+
 
 /* Styling for the top nav bar. */
 
@@ -41,8 +45,45 @@ body {
     color: var(--light-mustard);
 }
 
-.splash-text {
+
+/* Styling for the center title area */
+
+.title-area p {
+    font-family: var(--body-font);
+    color: var(--dark-blue);
+    font-size: 2rem;
+}
+.title-area .splash-text {
     font-family: var(--title-font);
-    font-size: 6rem;
+    font-size: 7rem;
+    font-weight: 900;
     color: var(--mustard);
 }
+
+.title-area {
+    margin-top: 8rem;
+}
+
+/* Styling for the project cards area */
+
+.project-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.project-container img {
+    border-radius: 3px;
+    border: 1px solid var(--dark-cream);
+}
+
+.project-container .card {
+    background-color: var(--cream);
+    border: 1px solid var(--dark-cream);
+    border-radius: 3px;
+    padding: 1rem;
+}
+
