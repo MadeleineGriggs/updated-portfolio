@@ -1,0 +1,48 @@
+:root {
+--cream: #fef6f3;
+--dark-cream: #ddd5d2;
+--forest-green: #569063;
+--dark-forest: #3b6344;
+--light-forest: #6ab37a;
+--dark-blue: #182037;
+--mid-slate-blue: #6a6f7b;
+--mustard: #c7ac50;
+--dark-mustard: #a08a3e;
+--light-mustard: #dec97f;
+
+--body-font: 'Raleway', sans-serif;
+--title-font: 'Playfair Display', serif;
+}
+
+body {
+    background-image: url("../images/forest-background.jpg");
+    background-color: var(--cream);
+}
+
+
+/* Styling for the top nav bar. */
+
+.nav-row {
+    background-color: var(--dark-blue);
+    color: var(--cream);
+    font-family: var(--body-font);
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    padding-right: 2rem;
+}
+
+.nav-row .mr-auto p {
+    margin-bottom: 0rem;
+}
+
+.nav-row .col p {
+    font-family: var(--title-font);
+    font-size: 1.8rem;
+    color: var(--light-mustard);
+}
+
+.splash-text {
+    font-family: var(--title-font);
+    font-size: 6rem;
+    color: var(--mustard);
+}
