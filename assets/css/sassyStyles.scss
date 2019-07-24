@@ -1,0 +1,143 @@
+
+$light-cream: #fcfbfa;
+$cream: #fef6f3;
+$dark-cream: #ddd5d2;
+$forest-green: #569063;
+$dark-forest: #3b6344;
+$light-forest: #6ab37a;
+$dark-blue: #182037;
+$mid-slate-blue: #6a6f7b;
+$mustard: #c7ac50;
+$dark-mustard: #a08a3e;
+$light-mustard: #dec97f;
+
+$body-font: 'Raleway', sans-serif;
+$title-font: 'Playfair Display', serif;
+
+
+body {
+    background-image: url("../images/forest-background.jpg");
+    background-color: $cream;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Styling for the top nav bar. */
+
+.nav-row {
+    background-color: $dark-blue;
+    box-shadow: 0px 30px 40px $cream;
+    color: $cream;
+    font-family: $body-font;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    padding-right: 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+
+    .mr-auto{
+        p {
+            margin-bottom: 0rem;
+        }
+    }
+    .col {
+        p {
+            font-family: $title-font;
+            font-size: 1.8rem;
+            color: $light-mustard;
+        }
+    }
+}
+
+
+/* Styling for the center title area */
+
+.title-area {
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+
+    p {
+        font-family: $body-font;
+        color: $dark-blue;
+        font-size: 2rem;
+        text-shadow: -1px -1px 5px #dcdddd4f, 1px -1px 5px #dcdddd4f, -1px 1px 5px #dcdddd4f, 1px 1px 5px #dcdddd4f;
+    }
+
+    .splash-text {
+        font-family: $title-font;
+        font-size: 7rem;
+        font-weight: 900;
+        color: $light-mustard;
+        text-shadow: -1px -1px 7px #58705e4f, 1px -1px 7px #58705e4f, -1px 1px 7px #58705e4f, 1px 1px 7px #58705e4f;
+    }
+}
+
+/* Styling for the project cards area */
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+
+        h2 {
+            font-family: $title-font;
+            color: $light-mustard;
+            font-size: 5rem;
+            text-shadow: -1px -1px 7px #58705e4f, 1px -1px 7px #58705e4f, -1px 1px 7px #58705e4f, 1px 1px 7px #58705e4f;
+        }
+        .row {
+            margin-top: 6rem;
+        }
+
+        .card-img-top {
+            border-radius: 3px;
+            border: 2px solid $cream;
+        }
+
+        .card {
+            background-color: $light-cream;
+            border: 1px solid $dark-cream;
+            border-radius: 3px;
+            padding: 1.2rem;
+            min-width: 20rem;
+            max-width: 25rem;
+            margin-bottom: 2rem;
+            box-shadow: 0px 0px 20px 3px rgba(59, 99, 68, 0.50);
+        }
+
+        .card-title {
+            font-family: $title-font;
+            color: $forest-green;
+            font-size: 1.5rem;
+        }
+
+        .card-body {
+            font-family: $body-font;
+            color: $dark-blue;
+        }
+
+        .card-link {
+            font-family: $body-font;
+            color: $light-forest;
+        }
+
+        .card-link:hover {
+            color: $mustard;
+        }
+
+        .col {
+            margin: 0 2rem;
+        }
+}
