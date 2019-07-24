@@ -82,7 +82,7 @@ body {
   padding: 1.2rem;
   min-width: 20rem;
   max-width: 25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
   box-shadow: 0px 0px 20px 3px rgba(59, 99, 68, 0.5);
 }
 .project-container .card-title {
@@ -103,6 +103,60 @@ body {
 }
 .project-container .col {
   margin: 0 2rem;
+}
+
+/* Styling for the about area */
+.about-container {
+  width: 100%;
+  margin-bottom: 20rem;
+}
+.about-container h2 {
+  font-family: "Playfair Display", serif;
+  color: #dec97f;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: -1px -1px 7px #58705e4f, 1px -1px 7px #58705e4f, -1px 1px 7px #58705e4f, 1px 1px 7px #58705e4f;
+  margin-bottom: 5rem;
+}
+.about-container .about-card {
+  width: 80%;
+  min-width: 33rem;
+  margin: 0 auto;
+  padding: 1.2rem;
+  background-color: #fcfbfa;
+  border: 1px solid #ddd5d2;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px 3px rgba(59, 99, 68, 0.5);
+}
+.about-container .about-card img {
+  max-width: 30rem;
+  border-radius: 3px;
+}
+.about-container .about-card p {
+  font-family: "Raleway", sans-serif;
+  color: #182037;
+}
+
+.contact-container {
+  width: 100%;
+  margin-bottom: 20rem;
+}
+.contact-container h2 {
+  font-family: "Playfair Display", serif;
+  color: #dec97f;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: -1px -1px 7px #58705e4f, 1px -1px 7px #58705e4f, -1px 1px 7px #58705e4f, 1px 1px 7px #58705e4f;
+  margin-bottom: 5rem;
+}
+.contact-container .contact-card {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.2rem;
+  background-color: #fcfbfa;
+  border: 1px solid #ddd5d2;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px 3px rgba(59, 99, 68, 0.5);
 }
 
 /*# sourceMappingURL=styles.css.map */
